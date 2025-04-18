@@ -1,7 +1,6 @@
 import 'package:count_keeper_app/core/constants/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart' show Observer;
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 import 'core/routes/go_router_service.dart';

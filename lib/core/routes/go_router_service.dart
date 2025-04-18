@@ -35,7 +35,7 @@ final GoRouter router = GoRouter(
         GoRoute(
           path: '/stats',
           name: 'stats',
-          builder: (context, state) => StatsView(),
+          builder: (context, state) => const StatsView(),
         ),
         GoRoute(
           path: '/settings',
